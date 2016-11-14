@@ -1,0 +1,18 @@
+button {
+	border-radius: 5px;
+	background: #2B96DD;
+	color: white;
+	padding: 15px;
+	width: 100px;
+}
+
+button:focus {
+	outline: none;
+}
+
+.toggle {
+	background: red;
+}
+.blue {
+	background: blue;
+}

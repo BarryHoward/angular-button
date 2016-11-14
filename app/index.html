@@ -9,7 +9,8 @@
   </head>
   <body ng-app="app">
     <div class="container" ng-controller="LikeController">
-      <button class="like" ng-click="countUp()">{{ count }}</button>
+      <button class="like" ng-click="countUp()">{{ string }}</button>
+      <button class="toggle" ng-class="{'blue': up}" ng-click="toggle()">{{ upString }}</button>
     </div>
     <script src="js/bundle.js"></script>
   </body>
