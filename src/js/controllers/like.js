@@ -5,8 +5,6 @@ function LikeController ($scope){
 		$scope.count++;
 	}
 
-
-
 }
 
 LikeController.$inject = ['$scope'];
