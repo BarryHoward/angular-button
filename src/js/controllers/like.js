@@ -1,6 +1,6 @@
 function LikeController ($scope){
 	$scope.count = 0;
-	$scope.string = "Likes: " + $scope.count;
+	$scope.string = $scope.count + " likes";
 	$scope.up = true;
 	$scope.upString = "Up";
 
@@ -17,9 +17,9 @@ function LikeController ($scope){
 		}
 
 		if ($scope.count === 1){
-			$scope.string = "Like: " + $scope.count;			
+			$scope.string = $scope.count + " like";			
 		} else {
-			$scope.string = "Likes: " + $scope.count;
+			$scope.string = $scope.count + " likes";
 		}
 	}
 
